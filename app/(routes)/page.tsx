@@ -42,7 +42,7 @@ const Home = () => {
                 <p>40% increase in conversions.</p>
               </div>
             </div>
-              <p className="text-xl font-light">"Thanks to their expertise, we witnessed a remarkable surge in our online presence, and our brand is now thriving like never before. Market Minds truly knows how to turn visions into reality."</p>
+              <p className="text-xl font-light">&rdquo;Thanks to their expertise, we witnessed a remarkable surge in our online presence, and our brand is now thriving like never before. Market Minds truly knows how to turn visions into reality.&ldquo;</p>
           </div>
           </Container>
         </section>
@@ -108,16 +108,16 @@ const Home = () => {
               <div className="mt-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <p className="text-xl font-light">Working with Market Minds has been a game-changer for our business. Their team's expertise in digital marketing strategies, from SEO to social media, has significantly boosted our online presence. Our website traffic has soared, and we've seen a remarkable increase in qualified leads. Market Minds has truly been a trusted partner in our growth journey.</p>
+                    <p className="text-xl font-light">Working with Market Minds has been a game-changer for our business. Their team&apos;s expertise in digital marketing strategies, from SEO to social media, has significantly boosted our online presence. Our website traffic has soared, and we&apos;ve seen a remarkable increase in qualified leads. Market Minds has truly been a trusted partner in our growth journey.</p>
                   </div>
                   <div>
-                    <p className="text-xl font-light">We've been with Market Minds for several years, and their dedication to our success has been unwavering. Their ability to adapt to the ever-changing digital landscape while maintaining a data-driven approach has been instrumental in our growth. Whether it's optimizing our website, managing our PPC campaigns, or crafting engaging content, Market Minds consistently delivers results. They've not just met but exceeded our digital marketing expectations.</p>
+                    <p className="text-xl font-light">We&apos;ve been with Market Minds for several years, and their dedication to our success has been unwavering. Their ability to adapt to the ever-changing digital landscape while maintaining a data-driven approach has been instrumental in our growth. Whether it&apos;s optimizing our website, managing our PPC campaigns, or crafting engaging content, Market Minds consistently delivers results. They&apos;ve not just met but exceeded our digital marketing expectations.</p>
                   </div>             
                   <div>
-                    <p className="text-xl font-light">We've been collaborating with Market Minds for over a year, and the results have been exceptional. Their data-driven approach to PPC advertising has significantly reduced our ad spend while increasing conversions. The dedication to our goals and transparent communication has made Market Minds an invaluable extension of our marketing team.</p>
+                    <p className="text-xl font-light">We&apos;ve been collaborating with Market Minds for over a year, and the results have been exceptional. Their data-driven approach to PPC advertising has significantly reduced our ad spend while increasing conversions. The dedication to our goals and transparent communication has made Market Minds an invaluable extension of our marketing team.</p>
                   </div>
                   <div>
-                    <p className="text-xl font-light">I can't thank Market Minds enough for their outstanding digital marketing services. They've transformed our boutique's online visibility and brand recognition. Their tailored content strategies and social media management have not only increased our followers but also driven sales like never before. Market Minds is a top-notch team dedicated to delivering results.</p>
+                    <p className="text-xl font-light">I can&apos;t thank Market Minds enough for their outstanding digital marketing services. They&apos;ve transformed our boutique&apos;s online visibility and brand recognition. Their tailored content strategies and social media management have not only increased our followers but also driven sales like never before. Market Minds is a top-notch team dedicated to delivering results.</p>
                   </div>
                 </div>
               </div>         
