@@ -1,7 +1,7 @@
 import React from "react";
 
 import Container from "@/components/ui/container";
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 
 const Home = () => {
   return ( 
@@ -17,8 +17,8 @@ const Home = () => {
               <Image 
                 src='/img/Firefly image of ai robot improving business sales 46993.jpg'
                 alt="ai seo image"
+                layout="fill"
                 sizes="500"
-                fill
                 style={{                   
                 objectFit: 'cover',
                 borderRadius: '6px'
@@ -67,7 +67,7 @@ const Home = () => {
                 <Image 
                   src='/img/Firefly corporate image of male ceo of a digital marketing company 42157.jpg'
                   alt="ai seo image"
-                  fill
+                  layout="fill"
                   style={{                   
                     objectFit: 'contain',
                     borderRadius: '6px',
@@ -85,7 +85,7 @@ const Home = () => {
                 <Image 
                   src='/img/DALL·E 2023-09-10 16.56.40 - a corporate picture of a lead marketing strategist for a digital marketing company.png'
                   alt="ai seo image"
-                  fill
+                  layout="fill"
                   style={{                   
                     objectFit: 'contain',
                     borderRadius: '6px',
