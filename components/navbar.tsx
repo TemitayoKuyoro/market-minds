@@ -1,21 +1,46 @@
-'use client';
+"use client";
 
+import { useState } from "react";
 import Link from "next/link";
+import { Menu } from "lucide-react";
 
 import Container from "@/components/ui/container";
-import MainNav from '@/components/main-nav';
+import MainNav from "@/components/main-nav";
 
 const Navbar = () => {
-    return ( 
-            <Container>
-                <div className="grid grid-cols-2 py-2 border-b">
-                    <Link href="/">
-                        <p className="font-extrabold text-2xl uppercase">Market Minds</p>
-                    </Link>
-                    <MainNav />
-                </div>
-            </Container>
-     );
-}
- 
+  const [open, setOpen] = useState(false)
+
+  const onClick = () => {
+    if(open) {
+      setOpen(false)
+    } 
+    if(!open){
+      setOpen(true)
+    }
+  }
+
+  return (
+    <Container>
+      <div className="flex justify-between py-2 border-b">
+        <Link href="/">
+          <p className="font-medium text-xl uppercase tracking-tight leading-none md:tracking-wide">
+            Market Minds
+          </p>
+        </Link>
+        <>
+          <button
+            onClick={onClick}
+            id="main-nav-toggle"
+            className="sm:hidden"
+            aria-controls="main-nav"
+          >
+            <Menu />
+          </button>
+          <MainNav open={open} />
+        </>
+      </div>
+    </Container>
+  );
+};
+
 export default Navbar;
