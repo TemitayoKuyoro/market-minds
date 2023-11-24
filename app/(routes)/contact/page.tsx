@@ -1,27 +1,29 @@
-import React from 'react';
+import React from "react";
 
-import Container from '@/components/ui/container';
-import ContactForm from '@/components/contact-form';
+import Container from "@/components/ui/container";
+import ContactCard from "@/components/contact-card";
 
 const Contact = () => {
-    return ( 
-        <Container>
-          <div className='min-h-screen'>
-            <section className='mt-4 py-10'>
-            <h1 className='font-semibold text-3xl'>Contact</h1>
-            <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 mt-6'>
-              <div>
-                <p className='font-light text-xl tracking-tight leading-snug'>Please feel free to call or use our contact form to get in touch with us. 
-                We look forward to hearing from you!</p>
-              </div>
-              <div className='border border-gray-200 p-2 rounded'>                 
-                  <ContactForm />                
-              </div>
+  return (
+    <Container>
+      <section className="mt-4 py-6 px-3 mb-12">
+        <div className="min-h-screen">
+          <h1 className="font-semibold text-3xl">Contact</h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-6">
+            <div>
+              <p className="font-light text-lg tracking-wide leading-snug">
+                Please feel free to use our contact form to get in touch with us.
+                We look forward to hearing from you!
+              </p>
             </div>
-            </section>
+            <div>
+              <ContactCard />
+            </div>
           </div>
-        </Container>
-     );
-}
- 
+        </div>
+      </section>
+    </Container>
+  );
+};
+
 export default Contact;

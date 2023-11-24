@@ -5,16 +5,16 @@ import Container from "@/components/ui/container";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-50">
-      <Container>
-        <div className="flex items-center space-x-16 py-6">
+    <Container>
+      <footer className="bg-slate-50 px-1.5">
+        <div className="flex items-center space-x-6 sm:space-x-40 py-6">
           <Link href="/">
             <p className="font-medium text-xl uppercase tracking-tight leading-none md:tracking-wide">
               Market Minds
             </p>
           </Link>
           <div>
-            <nav className="columns-2 gap-10">
+            <nav className="columns-2 gap-4 sm:gap-20">
               <ul className="leading-7">
                 <li className="text-muted-foreground hover:text-black">
                   <Link href="#">Products</Link>
@@ -32,13 +32,13 @@ const Footer = () => {
                   <Link href="#">Privacy Policy</Link>
                 </li>
                 <li className="font-light hover:font-medium">
-                  <Link href="">Services</Link>
+                  <Link href="/services">Services</Link>
                 </li>
                 <li className="font-light hover:font-medium">
-                  <Link href="">About</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li className="font-light hover:font-medium">
-                  <Link href="">Contact</Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>
@@ -49,8 +49,8 @@ const Footer = () => {
             &copy; copyright 2023; All rights reserved.
           </p>
         </div>
-      </Container>
-    </footer>
+      </footer>
+    </Container>
   );
 };
 

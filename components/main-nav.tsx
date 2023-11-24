@@ -18,7 +18,7 @@ const MainNav: React.FC<MainNavProps> = ({
   return (
     <nav
       id="main-nav"
-      className="hidden sm:flex sm:static space-x-8 absolute top-14 right-2 gap-3.5"
+      className="hidden sm:flex sm:static space-x-8 absolute top-10 right-6 gap-3.5 py-4 px-2"
       aria-expanded={open}
     >
       <Link
