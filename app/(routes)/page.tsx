@@ -80,31 +80,31 @@ const Home = () => {
               className="social-icon"
               width="50"
               height="50"
-              src="/img/1247732_amazon_payment_icon.svg"
+              src="/img/7422484_amazon_smile_happy_avatar_icon.svg"
             />
             <Image
               className="social-icon"
               width="50"
               height="50"
-              src="/img/7808180_facebook_social media_icon.svg"
+              src="/img/367582_facebook_social_icon.svg"
             />
             <Image
               className="social-icon"
               width="50"
               height="50"
-              src="/img/1220340_gmail_google_mail_icon.svg"
+              src="/img/4373722_gmail_logo_logos_icon.svg"
             />
             <Image
               className="social-icon"
               width="50"
               height="50"
-              src="/img/3064828_circle_gradient_gradient icon_social media_wordpress_icon.svg"
+              src="/img/3066977_circle_high quality_media_social_social media_icon.svg"
             />
             <Image
               className="social-icon"
               width="50"
               height="50"
-              src="/img/4362952_whatsapp_logo_social media_messaging app_icon.svg"
+              src="/img/843786_whatsapp_icon.svg"
             />
           </div>
         </section>
