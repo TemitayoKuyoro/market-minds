@@ -70,6 +70,15 @@ transform-origin: center;
   inset: 5rem 1rem ; /* inset property */
 }
 
+/* Social Icons */
+.social-icon:hover {
+  translate: 0px -4px;
+}
+
+.social-icon {
+  transition: all 0.5s ease-in-out;
+}
+
 /* Testimonials */
 
 blockquote::before {

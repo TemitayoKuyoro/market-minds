@@ -46,8 +46,12 @@ const Home = () => {
             <div className="grid grid-cols-2 gap-2">
               <div className="flex flex-col items-center py-10 px-6 border rounded">
                 <span className="text-2xl flex items-center gap-2">
-                  <Star color="yellow" />
-                  <p className="font-medium">1.5k</p> 
+                  <img
+                    width="20"
+                    height="20"
+                    src="/img/4230539_audience_customer_target_team_icon.svg"
+                  />
+                  <p className="font-medium">1.5k</p>
                 </span>
                 <p className="leading-wide mt-1 font-light">
                   Over 1,500 trusted customers
@@ -55,7 +59,11 @@ const Home = () => {
               </div>
               <div className="flex flex-col items-center py-10 px-6 border rounded">
                 <span className="text-2xl flex items-center gap-2 tracking-wide">
-                  <CircleDollarSign color="green" />
+                <img
+                    width="20"
+                    height="20"
+                    src="/img/172506_money_icon.svg"
+                  />
                   <p className="tracking-tight font-medium">40%</p>
                 </span>
                 <p className="leading-wide mt-1 font-light">
@@ -76,31 +84,31 @@ const Home = () => {
         <section className="mt-18 pt-4 px-3">
           <h2 className="font-semibold text-3xl">Our Services</h2>
           <div className="flex gap-8 py-4">
-            <Image
+            <img
               className="social-icon"
               width="50"
               height="50"
               src="/img/7422484_amazon_smile_happy_avatar_icon.svg"
             />
-            <Image
+            <img
               className="social-icon"
               width="50"
               height="50"
               src="/img/367582_facebook_social_icon.svg"
             />
-            <Image
+            <img
               className="social-icon"
               width="50"
               height="50"
               src="/img/4373722_gmail_logo_logos_icon.svg"
             />
-            <Image
+            <img
               className="social-icon"
               width="50"
               height="50"
               src="/img/3066977_circle_high quality_media_social_social media_icon.svg"
             />
-            <Image
+            <img
               className="social-icon"
               width="50"
               height="50"
